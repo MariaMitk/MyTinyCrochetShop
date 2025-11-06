@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Tiny Crochet Shop</title>
+    <meta name="title" content="My Tiny Crochet Shop">
+    <meta name="description" content="Welcome to My Tiny Crochet Shop!">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <!-- google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/font.css">
+
+    <!-- stylesheet link -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- images-->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+
+
+</head>
+<body>
+    <!-- ======= HEADER ======= -->
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./assets/images/logo.svg" width="75" height="5" alt="shoppie home">
+            </a>
+            <div class="header-search">
+                <input type="search" name="search" placeholder="Search for products" class="input-field">
+                <button class="search-btn" aria-label="search">
+                    <ion-icon name="search-outline"></ion-icon>
+                </button>
+            </div>
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+                    <li>
+                        <a href="#" class="navbar-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-link">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-link">Shop</a>
+                    </li>
+                </ul>
+                <button class="card-btn">
+                    <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                    <span class="span">Cart</span>
+                </button>
+                <a href="#" class="btn">Contact Us</a>
+            </nav>
+            <button class="nav-open-btn" aria-label="toggle menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+        </div>
+    </header>
+
+    <!-- ======= MAIN ======= -->
+    <main>
+        <article>
+            <!-- ======= HERO ======= -->
+            <div class="hero">
+                <div class="container">
+                    <div class="hero-content">
+                        <p class="hero-subtitle title">Welcome to</p>
+                        <h1 class="h1 hero-title title">My Tiny Crochet Shop</h1>
+                        <p class="hero-text">
+                            Discover handcrafted crochet creations made with love and care. From cozy accessories to unique home decor, 
+                            every piece is designed to bring warmth and charm into your life.
+                        </p>
+                        <a href="#shop" class="btn btn-primary">
+                            <span class="span">Shop Our Collection</span>
+                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                        </a>
+                    </div>
+                    <div class="hero-banner">
+                        <figure class="img-holder" style="--width: 704; --height: 700;">
+                            <img src="./assets/images/hero-banner.jpeg" width="704" height="700" alt="hero banner" class="img-cover">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- ======= PRODUCT ======= -->
+            <section class="section product" aria-label="product">
+                <div class="container">
+                    <h2 class="h2 section-title text-center">Soon to shop</h2>
+                    <button class="carousel-btn prev-btn" aria-label="Previous product">
+                    </button>
+                    <button class="carousel-btn next-btn" aria-label="Next product">
+                    </button>
+                    <ul class="product-list has-scrollbar">
+                        <li class="scrollbar-item">
+                            <div class="product-card text-center">
+                                <div class="card-banner">
+                                    <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                                        <img src="./assets/images/product-1.png" width="448" height="470" loading="lazy" alt="Puffy Bag" class="img-cover">
+                                    </figure>
+                                    <a href="#" class="btn product-btn">
+                                        <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                                        <span class="span">Pre-Order</span>
+                                    </a>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="h4 title">
+                                        <a href="#" class="card-title">Puffy Bag</a>
+                                    </h3>
+                                    <span class="price">$35.00</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="scrollbar-item">
+                            <div class="product-card text-center">
+                                <div class="card-banner">
+                                    <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                                        <img src="./assets/images/product-2.png" width="448" height="470" loading="lazy" alt="Hollow Knight Plushie" class="img-cover">
+                                    </figure>
+                                    <a href="#" class="btn product-btn">
+                                        <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                                        <span class="span">Pre-Order</span>
+                                    </a>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="h4 title">
+                                        <a href="#" class="card-title">Hollow Knight Plushie</a>
+                                    </h3>
+                                    <span class="price">$80.00</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="scrollbar-item">
+                            <div class="product-card text-center">
+                                <div class="card-banner">
+                                    <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                                        <img src="./assets/images/product-3.png" width="448" height="470" loading="lazy" alt="Zoey Plushie" class="img-cover">
+                                    </figure>
+                                    <a href="#" class="btn product-btn">
+                                        <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                                        <span class="span">Pre-Order</span>
+                                    </a>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="h4 title">
+                                        <a href="#" class="card-title">Zoey Plushie</a>
+                                    </h3>
+                                    <span class="price">$80.00</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="scrollbar-item">
+                            <div class="product-card text-center">
+                                <div class="card-banner">
+                                    <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                                        <img src="./assets/images/product-9.png" width="448" height="470" loading="lazy" alt="Mesh Shirt" class="img-cover">
+                                    </figure>
+                                    <a href="#" class="btn product-btn">
+                                        <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                                        <span class="span">Pre-Order</span>
+                                    </a>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="h4 title">
+                                        <a href="#" class="card-title">Mesh Shirt</a>
+                                    </h3>
+                                    <span class="price">$70.00</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="scrollbar-item">
+                            <div class="product-card text-center">
+                                <div class="card-banner">
+                                    <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                                        <img src="./assets/images/product-10.png" width="448" height="470" loading="lazy" alt="Bear Binnie" class="img-cover">
+                                    </figure>
+                                    <a href="#" class="btn product-btn">
+                                        <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                                        <span class="span">Pre-Order</span>
+                                    </a>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="h4 title">
+                                        <a href="#" class="card-title">Bear Binnie</a>
+                                    </h3>
+                                    <span class="price">$20.00</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- ======= FEATURE ======= -->
+             <section class="section feature" aria-label="feature-label">
+                <div class="container">
+                    <h2 class="h2 section-title title text-center" id="featured-label">Most Popular Products</h2>
+                    <ul class="feature-list">
+                        <li>
+                            <div class="product-card text-center">
+                                <div class="card-banner">
+                                    <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                                        <img src="./assets/images/product-4.png" width="448" height="470" loading="lazy" alt="Frog Plushie" class="img-cover">
+                                    </figure>
+                                    <a href="#" class="btn product-btn">
+                                        <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                                        <span class="span">Add to Cart</span>
+                                    </a>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="h3 title">
+                                        <a href="#" class="card-title">Frog Plushie</a>
+                                    </h3>
+                                    <span class="price">$10.00</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-card text-center">
+                                <div class="card-banner">
+                                    <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                                        <img src="./assets/images/product-5.png" width="448" height="470" loading="lazy" alt="Bunnie Plushie" class="img-cover">
+                                    </figure>
+                                    <a href="#" class="btn product-btn">
+                                        <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                                        <span class="span">Add to Cart</span>
+                                    </a>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="h3 title">
+                                        <a href="#" class="card-title">Bunnie Plushie</a>
+                                    </h3>
+                                    <span class="price">$35.00</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-card text-center">
+                                <div class="card-banner">
+                                    <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                                        <img src="./assets/images/product-6.png" width="448" height="470" loading="lazy" alt="Flower Coasters" class="img-cover">
+                                    </figure>
+                                    <a href="#" class="btn product-btn">
+                                        <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                                        <span class="span">Add to Cart</span>
+                                    </a>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="h3 title">
+                                        <a href="#" class="card-title">Flower Coasters</a>
+                                    </h3>
+                                    <span class="price">$10.00</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-card text-center">
+                                <div class="card-banner">
+                                    <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                                        <img src="./assets/images/product-7.png" width="448" height="470" loading="lazy" alt="Heart Cardigan" class="img-cover">
+                                    </figure>
+                                    <a href="#" class="btn product-btn">
+                                        <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                                        <span class="span">Add to Cart</span>
+                                    </a>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="h3 title">
+                                        <a href="#" class="card-title">Heart Cardigan</a>
+                                    </h3>
+                                    <span class="price">$85.00</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-card text-center">
+                                <div class="card-banner">
+                                    <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                                        <img src="./assets/images/product-11.png" width="448" height="470" loading="lazy" alt="Sweater" class="img-cover">
+                                    </figure>
+                                    <a href="#" class="btn product-btn">
+                                        <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                                        <span class="span">Add to Cart</span>
+                                    </a>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="h3 title">
+                                        <a href="#" class="card-title">Sweater</a>
+                                    </h3>
+                                    <span class="price">$85.00</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-card text-center">
+                                <div class="card-banner">
+                                    <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                                        <img src="./assets/images/product-8.png" width="448" height="470" loading="lazy" alt="Tote Bag" class="img-cover">
+                                    </figure>
+                                    <a href="#" class="btn product-btn">
+                                        <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                                        <span class="span">Add to Cart</span>
+                                    </a>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="h3 title">
+                                        <a href="#" class="card-title">Tote Bag</a>
+                                    </h3>
+                                    <span class="price">$40.00</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-card text-center">
+                                <div class="card-banner">
+                                    <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                                        <img src="./assets/images/product-12.png" width="448" height="470" loading="lazy" alt="Pouch Bag" class="img-cover">
+                                    </figure>
+                                    <a href="#" class="btn product-btn">
+                                        <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                                        <span class="span">Add to Cart</span>
+                                    </a>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="h3 title">
+                                        <a href="#" class="card-title">Pouch Bag</a>
+                                    </h3>
+                                    <span class="price">$25.00</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="product-card text-center">
+                                <div class="card-banner">
+                                    <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                                        <img src="./assets/images/product-13.png" width="448" height="470" loading="lazy" alt="Cat Charm" class="img-cover">
+                                    </figure>
+                                    <a href="#" class="btn product-btn">
+                                        <ion-icon name="bag" aria-hidden="true"></ion-icon>
+                                        <span class="span">Add to Cart</span>
+                                    </a>
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="h3 title">
+                                        <a href="#" class="card-title">Cat Charm</a>
+                                    </h3>
+                                    <span class="price">$20.00</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn btn-secondary">Vew All Products</a>
+                        
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <!-- ======= FOOTER ======= -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <img src="./assets/images/logo.svg" width="132" height="27" loading="lazy" alt="shoppie home">
+                    </a>
+                    <p class="footer-text">
+                        A one-person crochet shop, bringing handmade creations crafted with love and care to add warmth and charm to your home and wardrobe.
+                    </p>
+                    <ul class="social-list">
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-facebook" aria-hidden="true"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-twitter" aria-hidden="true"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-pinterest" aria-hidden="true"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-list-title title">Contact Info</p>
+                        <address class="footer-text">
+                            Thessaloniki<br>
+                            Greece
+                        </address>
+                    </li>
+                    <li>
+                        <a href="mailto:info.dfafa@support.com" class="email">info.MyTinyCrochetShop@support.com</a>
+                    </li>
+                    <li>
+                        <a href="tel:+0123456789" class="call">+30 6999999999</a>
+                    </li>
+                </ul>
+                <div class="footer-list">
+                    <p class="footer-list-title title">Subscribe to the newsletter to be updated</p>
+                    <form action="subscribe.html" method="get">
+                        <button class="btn btn-secondary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="wrapper">
+                    <div class="link-wrapper">
+                        <a href="#" class="footer-bottom-link">Portfolio</a>
+                        <a href="#" class="footer-bottom-link">Services</a>
+                        <a href="#" class="footer-bottom-link">Contact Us</a>
+                    </div>
+
+                    <div class="link-wrapper">
+                        <a href="#" class="footer-bottom-link">Privacy Policy</a>
+                        <a href="#" class="footer-bottom-link">Terms & Conditions</a>
+                    </div>
+                </div>
+
+                <p class="copyright">
+                    &copy; 2025 My Tiny Crochet Shop. This is a uni assignment.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- javascript file -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- ionicon link -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
